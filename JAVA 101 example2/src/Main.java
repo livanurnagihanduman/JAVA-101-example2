@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -102,6 +104,29 @@ public class Main {
                 System.out.println("Hatalı giriş yaptınız!");
         }
             System.out.println("Program Bitti!");
+
+        //KULLANICI GİRİŞİ PROGRAMI
+
+        String userName;
+        int userPassword;
+
+        Scanner inp = new Scanner(System.in);
+
+
+
+        System.out.println("Lütfen kulllanıcı adınızı giriniz: ");
+        userName = inp.nextLine();
+        System.out.println("Lütfen şifrenizi giirniz: ");
+        userPassword = inp.nextInt();
+
+
+        if(userName.equals("dumanliva27") && userPassword == 2727){
+            System.out.println(" Tebrikler! Başarılı giriş yaptınız... ");
+        }else{
+            System.out.println("Üzgünüz! Hatalı giriş yaptınız...");
+        }
+        System.out.println("Program Bitti.");
+
 
 
 
