@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        /*
+
         int a = 5 , b = 10;
         boolean compera = a == b;
 
@@ -204,7 +204,7 @@ public class Main {
         }
 
 
-         */
+
         // SAYILARI BÜYÜKTEN KÜÇÜĞE SIRALAYAN PROGRAM
 
         int k;
