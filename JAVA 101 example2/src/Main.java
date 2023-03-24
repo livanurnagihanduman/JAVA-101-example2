@@ -127,6 +127,67 @@ public class Main {
         }
         System.out.println("Program Bitti.");
 
+        // SINIF GEÇME DURUMU
+
+        String note = "AA";
+
+        switch(note){
+            case "AA":
+                System.out.println("Tebrikler! Mükemmel Geçtiniz");
+                break;
+            case "BA":
+                System.out.println("Harika! Çok İyi Geçtiniz");
+                break;
+            case "CB":
+                System.out.println("İyi Geçtiniz");
+                break;
+            case "FF":
+                System.out.println("Üzgünüz! Kaldınız.");
+                break;
+            default:
+                System.out.println("Maalesef! Geçersiz Not");
+        }
+        System.out.println("Program Bitti!");
+
+
+
+
+        int matNot, fizikNot,javaNot,lineerCebirNot;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Matematik Notunuzu Giriniz!");
+        matNot = input.nextInt();
+
+        System.out.println("Fizik  Notunuzu Giriniz!");
+        fizikNot = input.nextInt();
+
+        System.out.println("Java Notunuzu Giriniz!");
+        javaNot = input.nextInt();
+
+        System.out.println("Lineer Cebir Notunuzu Giriniz!");
+        lineerCebirNot = input.nextInt();
+
+        double ort  = (matNot + fizikNot + javaNot + lineerCebirNot) / 4;
+        if(ort >= 55){
+            System.out.print("Tebrikler! Sınıfı Geçtiniz...");
+            System.out.print("\n");
+            System.out.print("Ortalamanız: " + ort);
+        }else{
+            System.out.print("Üzgünüz! Sınıfta Kaldınız...");
+            System.out.print("\n");
+            System.out.print("Ortalamanız: " + ort);
+        }
+
+
+
+
+
+
+
+
+
+
 
 
 
