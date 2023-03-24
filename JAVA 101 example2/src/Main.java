@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
+        /*
         int a = 5 , b = 10;
         boolean compera = a == b;
 
@@ -178,6 +180,70 @@ public class Main {
             System.out.print("\n");
             System.out.print("Ortalamanız: " + ort);
         }
+
+
+
+        // HAVA DURUMUNA GÖRE ETKİNLİK ÖNERME PROGRAMI
+
+        System.out.print("\n");
+
+        String  weather = "-10";
+
+        switch(weather){
+            case "weather = 25":
+                System.out.println("Nicee! Let's sea");
+                break;
+            case  "weather = 15":
+                System.out.println("No Problem! Let's cinema");
+                break;
+            case "Weather = -10":
+                System.out.println("Voavvv! Coulddd! let's snowboarding");
+                break;
+            default:
+                System.out.println("NoNoNo!!");
+        }
+
+
+         */
+        // SAYILARI BÜYÜKTEN KÜÇÜĞE SIRALAYAN PROGRAM
+
+        int k;
+        int l;
+        int t;
+
+        Scanner i = new Scanner(System.in);
+
+        System.out.print("k sayısını giriniz: ");
+        k = i.nextInt();
+
+        System.out.print("l sayısını giriniz: ");
+        l = i.nextInt();
+
+        System.out.print("t sayısını giriniz:");
+        t = i.nextInt();
+
+        if((k>l)&&(k>t)){
+            if (l > t) {
+                System.out.println("k>l>t");
+            } else {
+                System.out.println("k>t>l");
+            }
+        }else if((l>k)&&(l>t)){
+            if(k>t){
+                System.out.println("l>k>t");
+            }else{
+                System.out.println("l>t>k");
+            }
+        }else if((t>k)&&(t>l)){
+            if(k>l){
+                System.out.println("t>k>l");
+            }
+        }else{
+            System.out.println("t>l>k");
+        }
+
+
+
 
 
 
