@@ -5,6 +5,7 @@ public class Main {
 
 
 
+
         int a = 5 , b = 10;
         boolean compera = a == b;
 
@@ -241,6 +242,187 @@ public class Main {
         }else{
             System.out.println("t>l>k");
         }
+
+
+
+        // BURÇ PROGRAMI
+
+
+        Scanner ınput = new Scanner(System.in);
+
+        int month;
+        int days;
+
+        System.out.print("Doğduğunuz Ayı Giriniz: ");
+        month = ınput.nextInt();
+
+        System.out.print("Doğduğunuz Günü Giriniz: ");
+        days = ınput.nextInt();
+
+        switch(month){
+            case 1:
+                if(days>=1 && days<=31){
+                    if(days<22){
+                        System.out.print("Oğlak Burcu");
+                    }else{
+                        System.out.print("Kova Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            case 2:
+                if(days>=1 && days<=28){
+                    if(days<=20){
+                        System.out.print("Kova Burcu");
+                    }else{
+                        System.out.print("Balık Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+           case 3:
+                if(days>=1 && days<=31){
+                    if(days<=28){
+                        System.out.print("Balık Burcu");
+                    }else{
+                        System.out.print("Koç Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            case 4:
+                if(days>=1 && days<=30){
+                    if(days<=21){
+                        System.out.print("Koç Burcu");
+                    }else{
+                        System.out.print("Boğa Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            case 5:
+                if(days>=1 && days<=31){
+                    if(days<=22){
+                        System.out.print("Boğa Burcu");
+                    }else{
+                        System.out.print("İkizler Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            case 6:
+                if(days>=1 && days<=30){
+                    if(days<=21){
+                        System.out.println("İkizler Burcu");
+                    }else{
+                        System.out.println("Yengeç Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            case 7:
+                if(days>=1 && days<=31){
+                    if(days<=22){
+                        System.out.println("Yengeç Burcu");
+                    }else{
+                        System.out.println("Aslan Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            case 8:
+                if(days>=1 && days<=30){
+                    if(days<=21){
+                        System.out.print("Aslan Burcu");
+                    }else{
+                        System.out.print("Başak Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            case 9:
+                if(days>=1 && days<=31){
+                    if(days<=22){
+                        System.out.print("Başak Burcu");
+                    }else{
+                        System.out.print("Terazi Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            case 10:
+                if(days>=1 && days<=30){
+                    if(days<=21){
+                        System.out.print("Terazi Burcu");
+                    }else{
+                        System.out.print("Akrep Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            case 11:
+                if(days>=1 && days<=30){
+                    if(days<=21){
+                        System.out.print("Akrep Burcu");
+                    }else{
+                        System.out.print("Yay Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            case 12:
+                if(days>=1 && days<=31){
+                    if(days<=22){
+                        System.out.print("Yay Burcu");
+                    } else {
+                        System.out.print("Oğlak Burcu");
+                    }
+                }else{
+                    System.out.print("Geçersiz Gün Girdiniz!");
+                }
+                break;
+
+            default:
+                System.out.print("Geçersiz Ay Girdiniz!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
 
 
 
