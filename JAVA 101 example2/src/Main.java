@@ -5,7 +5,7 @@ public class Main {
 
 
 
-/*
+
         int a = 5 , b = 10;
         boolean compera = a == b;
 
@@ -406,7 +406,7 @@ public class Main {
 
             default:
                 System.out.print("Geçersiz Ay Girdiniz!");
-       */
+
 
         // UÇAK BİLETİ FİYATI HESAPLAMA
 
