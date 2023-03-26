@@ -5,7 +5,7 @@ public class Main {
 
 
 
-
+/*
         int a = 5 , b = 10;
         boolean compera = a == b;
 
@@ -406,20 +406,73 @@ public class Main {
 
             default:
                 System.out.print("Geçersiz Ay Girdiniz!");
+       */
+
+        // UÇAK BİLETİ FİYATI HESAPLAMA
+
+
+        Scanner a1 = new Scanner(System.in);
+
+        int age;
+        int path;
+        float fee = 0.10F;
+
+        System.out.print("THY firmamıza hoşgeldiniz!");
+        System.out.print("\n");
+
+        System.out.print("Lütfen yaşınızı giriniz: ");
+        age = a1.nextInt();
+
+        System.out.print("Lütfen gidilen mesafeyi yazınız: ");
+        path = a1.nextInt();
 
 
 
+        double hesapla = (path * 0.10);
 
+        if(age<12) {
+            System.out.println("Çocuk İçin Ödenecek Tutar : " + (hesapla)*0.5);
 
+        }else if(age>=12 && age<=24){
+            System.out.println("Gençler İçin Ödnecek Tutar : " + (hesapla)*0.9);
 
+        }else if(age>=65){
+            System.out.println("Yaşlılar İçin Ödnecek Tutar : " + (hesapla)*0.7);
 
-
-
-
-
-
-
+        }   else {
+            System.out.print("Geçersiz!");
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
