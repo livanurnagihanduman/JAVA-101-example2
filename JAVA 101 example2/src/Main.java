@@ -444,6 +444,120 @@ public class Main {
         }
 
 
+        //ÇİN ZODYAĞI HESAPLAMA
+
+        Scanner b1 = new Scanner(System.in);
+
+        int bornYear;
+        int kalan = 0;
+
+        System.out.print("Çin Zodyağını öğrenmeye hazır mısın?");
+        System.out.print("\n");
+
+        System.out.print("Evet Şimdi Doğum Yılını Gir: ");
+        bornYear = b1.nextInt();
+
+        switch(kalan){
+            case 0:
+                if(bornYear%12 == 0){
+                    System.out.println("Çin Zodyağın: MAYMUN");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 1:
+                if(bornYear%12 == 1){
+                    System.out.println("Çin Zodyağın: HOROZ");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 2:
+                if(bornYear%12 == 2 ){
+                    System.out.println("Çin Zodyağın: KÖPEK");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 3:
+                if(bornYear%12 == 3){
+                    System.out.println("Çin Zodyağın: DOMUZ");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 4:
+                if(bornYear%12 == 4){
+                    System.out.println("Çin Zodyağın: FARE");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 5:
+                if(bornYear%12 == 5){
+                    System.out.println("Çin Zodyağın: ÖKÜZ");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 6:
+                if(bornYear%12 == 6){
+                    System.out.println("Çin Zodyağın: KAPLAN");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 7:
+                if(bornYear%12 == 7){
+                    System.out.println("Çin Zodyağın: TAVŞAN");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 8:
+                if(bornYear%12 == 8){
+                    System.out.println("Çin Zodyağın: EJDERHA");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 9:
+                if(bornYear%12 == 9){
+                    System.out.println("Çin Zodyağın: YILAN");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 10:
+                if(bornYear%12 == 10){
+                    System.out.println("Çin Zodyağın: AT");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+            case 11:
+                if(bornYear%12 == 11){
+                    System.out.println("Çin Zodyağın: KOYUN");
+                }else{
+                    System.out.println("Geçersiz!");
+                }
+                break;
+
+        }
+
+
+
 
 
 
