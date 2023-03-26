@@ -557,6 +557,34 @@ public class Main {
         }
 
 
+        // ARTIK YIL HESAPLYAN PROGRAM
+
+        Scanner c1 = new Scanner(System.in);
+
+        int year;
+
+        System.out.print("*************");
+        System.out.print("\n");
+        System.out.print("Artık Yıl Hesaplayan Programa Hoşgeldiniz!");
+        System.out.print("\n");
+        System.out.print("*************");
+        System.out.print("\n");
+
+        System.out.print("LÜtfen bir yıl giriniz: ");
+        year = c1.nextInt();
+
+        if(year%4 == 0){
+            System.out.println("Girdiğiniz Yıl ARTIK YIL'dır.");
+        }else if(year%4 == 0 &&year%100 == 0 && year%400 == 0){
+            System.out.println("Girdiğiniz Yıl ARTIK YIL'dır.");
+        }else{
+            System.out.println("Girdiğiniz Yıl ARTIK YIL değildir.");
+        }
+
+
+
+
+
 
 
 
